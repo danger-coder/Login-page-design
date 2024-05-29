@@ -1,8 +1,9 @@
 import React from "react";
+// import { img } from "../../public/assets/bg.png";
 
 const Login = () => {
   return (
-    <div className="flex">
+    <div className="flex container mx-auto py-9">
       <div className="basis-[30%]">
         <div>
           <h2>
@@ -11,7 +12,7 @@ const Login = () => {
           <div><p>Welcome to our App</p> <a>Register</a></div>
         </div>
 
-        <form>
+        <form className="flex flex-col">
           <label>Email</label>
           <input type="text"></input>
           <label>Password</label>
@@ -23,7 +24,7 @@ const Login = () => {
         </form>
       </div>
       <div className="flex-1">
-        <img></img>
+        {/* <img src={img } /> */}
       </div>
     </div>
   );
